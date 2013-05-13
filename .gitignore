@@ -1,0 +1,5 @@
+.settings/
+bin/
+gen/
+proguard-project.txt
+add_package.sh
