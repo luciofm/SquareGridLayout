@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:numColumns="3"
-        app:spacing="8dp"
+        app:spacing="4dp"
         android:animateLayoutChanges="true"
         tools:context=".MainActivity" >
 

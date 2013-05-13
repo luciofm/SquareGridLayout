@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 		} else if (item.getItemId() == R.id.action_add_column) {
 			grid.setColumnCount(grid.getColumnCount() + 1);
 		} else if (item.getItemId() == R.id.action_remove_column) {
-			if (grid.getColumnCount() > 1)
+			if (grid.getColumnCount() > 2)
 				grid.setColumnCount(grid.getColumnCount() - 1);
 		}
 
