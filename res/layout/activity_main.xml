@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/scroll"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="match_parent" >
 
     <com.luciofm.squaregrid.SquareGridLayout
         android:id="@+id/grid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:numColumns="3"
         app:spacing="4dp"
         android:animateLayoutChanges="true"

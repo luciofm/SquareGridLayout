@@ -24,9 +24,10 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		grid = (SquareGridLayout) findViewById(R.id.grid);
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 			grid.getLayoutTransition().enableTransitionType(
 					LayoutTransition.CHANGING);
+		}
 	}
 
 	@Override
